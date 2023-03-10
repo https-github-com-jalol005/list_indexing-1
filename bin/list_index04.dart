@@ -6,4 +6,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1){
+    var answer = list1.last;
+    return [answer];
+}
+void main() {
+    print(func([1,5,6,'dss',10]));
+}
+
