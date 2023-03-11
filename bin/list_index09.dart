@@ -6,4 +6,15 @@
     Returns:
         bool: return answer
 */
-void main() {}
+List func(List list_num){
+    List a;
+    if(list_num.first<list_num.last){
+        a=[list_num.last];
+    }else{
+        a=[list_num.first];
+    }
+    return a;
+}
+void main() {
+    print(func([3,6,4]));
+}
