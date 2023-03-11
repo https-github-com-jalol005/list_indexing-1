@@ -12,6 +12,6 @@ List func(List list1, int i){
     return [answer];
 }
 void main() {
-    print(func([1,6,3,9], 3));
+    print(func([1,7,3,9], 3));
 }
 
