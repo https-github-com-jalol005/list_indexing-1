@@ -7,11 +7,11 @@
         list: return answer
 */
 List func(list1) {
-  List a = [list1[0]];
+  List a =  [list1[0]];
   return a;
 }
 
 void main() {
-  print(func([88, 6, 4, 1, 6, 8, 6]));
+  print(func([88, 7, 4, 1, 6, 8, 6]));
 }
 
