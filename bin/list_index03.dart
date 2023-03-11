@@ -12,5 +12,5 @@ List func(List list1, List list2){
     return answer;
 }
 void main() {
-    print(func([1,5,4], [2,3,7]));
+    print(func([1,6,4], [2,3,7]));
 }
